@@ -39,3 +39,30 @@ const myFunc = function () {
     console.log("Hello");
 }
 console.log(myFunc());
+
+
+
+/***********************************************/
+
+// Stack (primitive), Heap (non-primitive/Reference)
+
+// Stack -> Copy
+
+let myName = "Akash"
+let myAnotherName = "Saha"
+
+myAnotherName = "porag"
+console.log(myName);
+console.log(myAnotherName); // value not changed
+
+// Heap -> Reference
+
+let user = {
+    email: "user@gmail.com",
+    upi: "akaash@ybl"
+}
+
+let userTwo = user
+userTwo.email = "saha@google.com"
+console.log(user.email); // value changed
+
