@@ -29,7 +29,7 @@ const obj4 = { 5: "a", 6: "b" }
 // const obj3 = { obj1, obj2 }
 // const obj3 = Object.assign({}, obj1, obj2, obj4)
 const obj3 = { ...obj1, ...obj2 }
-console.log(obj3);
+// console.log(obj3);
 
 const users = [
     {
@@ -55,7 +55,32 @@ const users = [
 ]
 
 
-console.log(tinderUser);
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
+// console.log(tinderUser);
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+console.log(Object.entries(tinderUser));
+
+
+const course = {
+    courseName: "js in bangla",
+    peice: 499,
+    courseInstructor: "AKASH"
+}
+
+const { courseInstructor: instructor } = course;
+console.log(instructor);
+
+
+// JSON API
+// {
+//     "name": "Akash",
+//     "courseName": "Js in Bangla",
+//     "price":"free"
+// }
+
+[
+    {},
+    {},
+    {}
+]
 
