@@ -1,0 +1,29 @@
+Global Execution Context
+Function Execution Context
+Eval Execution Context
+
+{} -> Memory Creation Phase
+    >Execution Phase
+
+    1. Global Execution
+        ->this
+
+    2. Memory Phase
+        val1-> undefined
+        val2-> undefined
+        addnum-> defition
+        res1-> undefined
+        res2-> undefined
+    
+    3. Execution Phase
+        val1 <-10
+        val2 <-5  --------------------------------------------------
+        addNum -> | new varriable environment + environment Thread |  (DELETE)
+                  --------------------------------------------------
+                             _______________|_______________
+                             |                              |
+                        Memory Phase                   Execution Phase
+                        ---------------                ---------------
+                        val1-> undefined                num1-> 10
+                        val2-> undefined                num2-> 5
+                        total-> undefined               total-> 15
