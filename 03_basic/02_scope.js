@@ -35,3 +35,20 @@ if (true) {
 }
 
 // console.log(userName);
+
+//--------------- INTERESTING ------------//
+
+console.log(addOne(5));
+function addOne(num) {
+    return num + 1;
+}
+addOne(5)
+
+
+// addTwo(7)
+const addTwo = function (num) {
+    return num + 2;
+}
+
+addTwo(7)
+console.log(addTwo(5));
