@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+    background-color: #d8d8d8;
+}
+
+#height,
+#weight {
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+    border-color: none;
+}
+
+#weight-guide {
+    margin-top: 25px;
+}
+
+form p input {
+    text-align: center;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+
+}
+::placeholder{
+    text-align: center;
+    color: red;
+}
+
+#results {
+    font-size: 25px; 
+    color:black;
+    padding: 5px 15px;
+}
+
+button {
+    margin: 25px;
+    background-color: navy;
+    padding: 5px 15px;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    border: none;
+    font-size: 25px;
+}
+
+h1 {
+  
+}
