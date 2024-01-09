@@ -29,6 +29,14 @@
             <li class="list-item">four</li>
         </ul>
     </div>
+
+    <script>
+        const tempClassList = document.getElementsByClassName('list-item')
+        
+        const newArr=Array.from(tempClassList);
+        newArr.forEach((id)=>id.style.color='green');
+            
+    </script>
 </body>
 
 </html>
