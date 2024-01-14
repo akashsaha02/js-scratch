@@ -16,24 +16,24 @@ let heroPower = {
     }
 }
 
-Object.prototype.hitesh = function () {
-    console.log(`hitesh is present in all objects`);
+Object.prototype.akash = function () {
+    console.log(`Akash is present in all objects`);
 }
 
-Array.prototype.heyHitesh = function () {
-    console.log(`Hitesh says hello`);
+Array.prototype.heyAkash = function () {
+    console.log(`Akash says hello`);
 }
 
-// heroPower.hitesh()
-// myHeros.hitesh()
-// myHeros.heyHitesh()
-// heroPower.heyHitesh()
+// heroPower.akash()
+// myHeros.akash()
+// myHeros.heyAkash()
+// heroPower.heyAkash()
 
 // inheritance
 
 const User = {
-    name: "chai",
-    email: "chai@google.com"
+    name: "saha",
+    email: "saha@google.com"
 }
 
 const Teacher = {
@@ -55,7 +55,7 @@ Teacher.__proto__ = User
 // modern syntax
 Object.setPrototypeOf(TeachingSupport, Teacher)
 
-let anotherUsername = "ChaiAurCode     "
+let anotherUsername = "AkashSaha     "
 
 String.prototype.trueLength = function () {
     console.log(`${this}`);
@@ -63,5 +63,5 @@ String.prototype.trueLength = function () {
 }
 
 anotherUsername.trueLength()
-"hitesh".trueLength()
-"iceTea".trueLength()
+"AkashSAHAboss     ".trueLength()
+"iceTea     ".trueLength()
